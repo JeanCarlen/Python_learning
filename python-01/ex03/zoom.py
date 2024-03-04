@@ -23,7 +23,7 @@ def zoomin(image):
         size = 400  # size of the square
         zoomed_img = img.crop((left, upper, left + size, upper + size))
 
-        # zoomed_img.show()
+        zoomed_img.show()
         # zoomed_img.save("zoomed_img.jpeg")
         # print("color image shape: ")
         # print("New shape after cropping: ", np.array(zoomed_img).shape)

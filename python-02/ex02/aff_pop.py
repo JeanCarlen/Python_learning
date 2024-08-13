@@ -26,8 +26,7 @@ def main():
     s_population = [conv_pop(pop) for pop in switzerland_data.values[0][1:]]
     f_population = [conv_pop(pop) for pop in france_data.values[0][1:]]
 
-    # plot the data
-# plot the data
+
     plt.plot(years, f_population, label='France', color='blue')
     plt.plot(years, s_population, label='Switzerland', color='red')
     plt.title("Population Projections")
